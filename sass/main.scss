@@ -1,9 +1,10 @@
 // custom variables
-$primary: #6b111c;
-$light: #f9ecf0;
-
+$primary: #52116b;
+$light: #f6ecf9;
+$secondary: #0b061f;
 $font-family-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $zindex-offcanvas: 1095;
+
 
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/functions";
@@ -11,8 +12,8 @@ $zindex-offcanvas: 1095;
 
 // custom theme colours
 $custom-theme-colors: (
-  "altlight": #f9ecf0,
-  "altdark": #6b111c,
+  "altlight": #f2ecf9,
+  "altdark": #52116b,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
